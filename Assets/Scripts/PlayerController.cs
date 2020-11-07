@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
     public float movementSpeed = 1f;
+    public float jumpSpeed = 5f;
 
     void Start()
     {
@@ -16,8 +17,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(horizontalMovement * movementSpeed, rb.velocity.y);
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+        }
+
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
         animator.SetFloat("Horizontal", rb.velocity.x);
+        //animator.SetFloat("Vertical", rb.velocity.y);
     }
 }
