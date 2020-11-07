@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ISavable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ISavable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/LevelSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/LevelSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ResourcesManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ResourcesManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerConstitution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BreathSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StressSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +49,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ISavable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/LevelSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ResourcesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/BreathController.cs" />
+        <option value="$PROJECT_DIR$/Assets/BreathSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StressIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerConstitution.cs" />
+        <option value="$PROJECT_DIR$/Assets/StressSystem.cs" />
       </list>
     </option>
   </component>
@@ -75,10 +80,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19116">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19116" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -94,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604555809240</updated>
       <workItem from="1604555812378" duration="8274000" />
+      <workItem from="1604757398255" duration="3324000" />
     </task>
     <servers />
   </component>
@@ -112,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
