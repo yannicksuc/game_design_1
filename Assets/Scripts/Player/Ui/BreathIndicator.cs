@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StressIndicator : MonoBehaviour
+public class BreathIndicator : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private PlayerConstitution constitution;
-    [SerializeField] private Slider stressLevelIndicator;
+    [SerializeField] private Slider breathLevelIndicator;
 
     // Update is called once per frame
     void Update()
     {
-        stressLevelIndicator.value = constitution.stressLevel / PlayerConstitution.StressLimit;
+        breathLevelIndicator.value = constitution.breath.ratio / PlayerCharacteristic.Limit;
     }
 }

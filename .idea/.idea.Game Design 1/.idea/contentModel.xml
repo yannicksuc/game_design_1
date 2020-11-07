@@ -6,9 +6,18 @@
     <e p="C:\Users\Yannick\Documents\Perso\Unity\Game Design 1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BreathSystem.cs" t="Include" />
-        <e p="PlayerConstitution.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Player" t="Include">
+            <e p="BreathSystem.cs" t="Include" />
+            <e p="PlayerCharacteristic.cs" t="Include" />
+            <e p="PlayerConstitution.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="StressSystem.cs" t="Include" />
+            <e p="Ui" t="Include">
+              <e p="BreathIndicator.cs" t="Include" />
+              <e p="StressIndicator.cs" t="Include" />
+            </e>
+          </e>
           <e p="SavingLoading" t="Include">
             <e p="ISavable.cs" t="Include" />
             <e p="LevelSystem.cs" t="Include" />
@@ -16,8 +25,6 @@
             <e p="SavableEntity.cs" t="Include" />
           </e>
         </e>
-        <e p="StressIndicator.cs" t="Include" />
-        <e p="StressSystem.cs" t="Include" />
       </e>
       <e p="Game Design 1.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

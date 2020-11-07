@@ -1,26 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "GameDesign1/PlayerConstitution")]
-public class PlayerConstitution : ScriptableObject
+namespace Player
 {
-    public const float StressLimit = 1;
-
-    [Range(0,StressLimit)]
-    public float stressLevel;
-
-    public int breathRhythm;
-    public int breathPower;
-
-    void Start()
+    [CreateAssetMenu(menuName = "GameDesign1/PlayerConstitution")]
+    public class PlayerConstitution : ScriptableObject
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public PlayerCharacteristic stress;
+        public PlayerCharacteristic breath;
     }
 }

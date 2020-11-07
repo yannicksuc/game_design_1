@@ -23,7 +23,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressIndicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressIndicator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +41,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerConstitution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BreathSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StressSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +59,13 @@
         <option value="$PROJECT_DIR$/Assets/StressIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/StressSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604555809240</updated>
       <workItem from="1604555812378" duration="8274000" />
-      <workItem from="1604757398255" duration="3324000" />
+      <workItem from="1604757398255" duration="12740000" />
     </task>
     <servers />
   </component>
@@ -192,24 +204,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604556316878" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/SavingLoading/ResourcesManager.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\Yannick\Documents\Perso\Unity\Game Design 1\Assets\Scripts\SavingLoading\ResourcesManager.cs" initialLine="23">
-            <startOffsets>
-              <option value="523" />
-            </startOffsets>
-            <endOffsets>
-              <option value="540" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
