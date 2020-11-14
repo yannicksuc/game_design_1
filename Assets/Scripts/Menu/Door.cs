@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    public MenuController mc;
+
+    public enum DoorType
+    {
+        Exit,
+        Play,
+    }
+    [SerializeField]
+    private DoorType Type;
     private Animator _anim;
 
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void OnMouseOver()
@@ -31,6 +34,12 @@ public class Door : MonoBehaviour
 
     private void OnMouseDown()
     {
-        MenuManager.Leave();
+        if (Type == DoorType.Exit)
+            MenuManager.Leave();
+        else if (Type == DoorType.Play)
+        {
+            _anim.SetTrigger("Still");
+            mc.StartCine();
+        }
     }
 }
