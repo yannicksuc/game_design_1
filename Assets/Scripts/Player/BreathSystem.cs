@@ -25,20 +25,20 @@ public class BreathSystem : MonoBehaviour
     {
         step = newStep;
         if (step == Step.Inhale)
-            constitution.breath.ratio = 0;
+            constitution.breath.Ratio = 0;
         else {
-            constitution.breath.ratio = PlayerCharacteristic.Limit;
+            constitution.breath.Ratio = PlayerCharacteristic.Limit;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        constitution.breath.ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float) step;
+        constitution.breath.Ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float) step;
 
-        if (step == Step.Inhale && constitution.breath.ratio >= PlayerCharacteristic.Limit)
+        if (step == Step.Inhale && constitution.breath.Ratio >= PlayerCharacteristic.Limit)
             SetStep(Step.Exhale);
-        else if (step == Step.Exhale && constitution.breath.ratio <= 0)
+        else if (step == Step.Exhale && constitution.breath.Ratio <= 0)
             SetStep(Step.Inhale);
     }
 }

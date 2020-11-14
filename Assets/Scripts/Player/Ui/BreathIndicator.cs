@@ -13,6 +13,6 @@ public class BreathIndicator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        breathLevelIndicator.value = constitution.breath.ratio / PlayerCharacteristic.Limit;
+        breathLevelIndicator.value = constitution.breath.Ratio / PlayerCharacteristic.Limit;
     }
 }

@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0789538929ec4498ba31983cb19b54, type: 3}
   m_Name: BasicPlayerConstitution
   m_EditorClassIdentifier: 
-  stressLevel: 0.5349814
-  breathRhythm: 0
-  breathPower: 0
+  stress:
+    ratio: 0.29415637
+    cooldown: 7
+    steps: 10
+  breath:
+    ratio: 0.41181886
+    cooldown: 5
