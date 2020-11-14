@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressIndicator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressIndicator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +61,13 @@
         <option value="$PROJECT_DIR$/Assets/StressIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/StressSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604555809240</updated>
       <workItem from="1604555812378" duration="8274000" />
-      <workItem from="1604757398255" duration="12740000" />
+      <workItem from="1604757398255" duration="15726000" />
+      <workItem from="1605366394149" duration="3596000" />
     </task>
     <servers />
   </component>
@@ -200,9 +203,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="203" key="GridCell.Tab.3.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604596471895" />
-    <state x="601" y="27" key="RiderGenerateDialog" timestamp="1604556316878">
+    <state x="601" y="27" key="RiderGenerateDialog" timestamp="1605367774472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605367774472" />
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604556316878" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605367476371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605367476371" />
   </component>
 </project>

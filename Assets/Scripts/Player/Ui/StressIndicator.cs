@@ -13,6 +13,6 @@ public class StressIndicator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        stressLevelIndicator.value = constitution.stress.ratio / PlayerCharacteristic.Limit;
+        stressLevelIndicator.value = constitution.stress.Ratio / PlayerCharacteristic.Limit;
     }
 }
