@@ -14,20 +14,24 @@ public class Door : MonoBehaviour
     [SerializeField]
     private DoorType Type;
     private Animator _anim;
+    private AudioSource _audio;
 
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
+        _audio = GetComponent<AudioSource>();
     }
 
-    private void OnMouseOver()
+    private void OnMouseEnter()
     {
+        _audio.Play();
         _anim.SetBool("Open", true);
     }
 
     private void OnMouseExit()
     {
+        _audio.Play();
         _anim.SetBool("Open", false);
     }
 
