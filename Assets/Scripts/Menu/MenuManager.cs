@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public static class MenuManager
 {
+    private static string IntroScene = "Intro";
     private static string GameScene = "SampleScene";
     private static string MenuScene = "Menu";
 
+
+    public static void GoToIntro()
+    {
+        SceneManager.LoadScene(IntroScene);
+    }
 
     public static void GoToScene()
     {

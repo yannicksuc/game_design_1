@@ -22,7 +22,7 @@ public class MenuController : MonoBehaviour
 
     public void LoadScene()
     {
-        MenuManager.GoToScene();
+        MenuManager.GoToIntro();
     }
 
     public void StartCine()

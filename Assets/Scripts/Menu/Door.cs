@@ -10,6 +10,7 @@ public class Door : MonoBehaviour
     {
         Exit,
         Play,
+        Intro,
     }
     [SerializeField]
     private DoorType Type;
@@ -25,14 +26,20 @@ public class Door : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        _audio.Play();
-        _anim.SetBool("Open", true);
+        if (Type != DoorType.Intro)
+        {
+            _audio.Play();
+            _anim.SetBool("Open", true);
+        }
     }
 
     private void OnMouseExit()
     {
-        _audio.Play();
-        _anim.SetBool("Open", false);
+        if (Type != DoorType.Intro)
+        {
+            _audio.Play();
+            _anim.SetBool("Open", false);
+        }
     }
 
 
@@ -45,5 +52,15 @@ public class Door : MonoBehaviour
             _anim.SetTrigger("Still");
             mc.StartCine();
         }
+    }
+
+    public void DoorSound()
+    {
+        _audio.Play();
+    }
+
+    public void IntroDoor()
+    {
+        MenuManager.GoToScene();
     }
 }
