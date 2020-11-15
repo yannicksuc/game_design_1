@@ -8,37 +8,19 @@ public class BreathSystem : MonoBehaviour
 {
     [SerializeField] private PlayerConstitution constitution;
 
-    enum Step
-    {
-        Inhale = 1,
-        Exhale = -1
-    }
-
-    [SerializeField] private Step step = Step.Inhale;
-
     void Awake()
     {
-        SetStep(step);
-    }
-
-    void SetStep(Step newStep)
-    {
-        step = newStep;
-        if (step == Step.Inhale)
-            constitution.breath.Ratio = 0;
-        else {
-            constitution.breath.Ratio = PlayerCharacteristic.Limit;
-        }
+        constitution.breath.Step = BreathStep.Inhale;
     }
 
     // Update is called once per frame
     void Update()
     {
-        constitution.breath.Ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float) step;
+        constitution.breath.Ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float) constitution.breath.Step;
 
-        if (step == Step.Inhale && constitution.breath.Ratio >= PlayerCharacteristic.Limit)
-            SetStep(Step.Exhale);
-        else if (step == Step.Exhale && constitution.breath.Ratio <= 0)
-            SetStep(Step.Inhale);
+        if (constitution.breath.Step == BreathStep.Inhale && constitution.breath.Ratio >= PlayerCharacteristic.Limit)
+            constitution.breath.Step = BreathStep.Exhale;
+        else if (constitution.breath.Step == BreathStep.Exhale && constitution.breath.Ratio <= 0)
+            constitution.breath.Step = BreathStep.Inhale;
     }
 }
