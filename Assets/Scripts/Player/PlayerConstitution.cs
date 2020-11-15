@@ -7,7 +7,7 @@ namespace Player
     public class PlayerConstitution : ScriptableObject
     {
         public PlayerStressCharacteristic stress;
-        public PlayerCharacteristic breath;
+        public PlayerBreathCharacteristic breath;
 
         public void OnDisable()
         {
