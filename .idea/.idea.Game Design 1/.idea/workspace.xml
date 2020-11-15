@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +35,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ShowOnlyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2BCE5D3-3E70-4A76-A5C9-576F4D43769B/f4/6aa0f47e/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PoppingSouvenirsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SouvenirsManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,8 +63,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
+        <option value="$PROJECT_DIR$/Assets/SouvenirsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PoppingSouvenirsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEventsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ABadEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/ShowOnlyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +119,8 @@
       <updated>1604555809240</updated>
       <workItem from="1604555812378" duration="8274000" />
       <workItem from="1604757398255" duration="15726000" />
-      <workItem from="1605366394149" duration="3596000" />
+      <workItem from="1605366394149" duration="5943000" />
+      <workItem from="1605464949711" duration="2494000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,7 @@
 using System.Dynamic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace Player
 {
@@ -9,10 +10,10 @@ namespace Player
     public class PlayerCharacteristic
     {
         public const uint Limit = 1;
-        private float _ratio;
+        [ShowOnly] [SerializeField] private float ratio;
         public float Ratio
         {
-            get => _ratio;
+            get => ratio;
             set => SetRatio(value);
         }
         public float cooldown;
@@ -20,11 +21,11 @@ namespace Player
         protected virtual void SetRatio(float value)
         {
             if (value > Limit)
-                _ratio = Limit;
+                ratio = Limit;
             else if (value < 0)
-                _ratio = 0;
+                ratio = 0;
             else
-                _ratio = value;
+                ratio = value;
         }
     }
 

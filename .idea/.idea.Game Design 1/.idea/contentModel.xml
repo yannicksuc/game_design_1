@@ -4,9 +4,21 @@
     <e p="C:\Users\Yannick\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Yannick\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Game Design 1.1691070270.00" t="ExcludeRecursive" />
     <e p="C:\Users\Yannick\Documents\Perso\Unity\Game Design 1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="ShowOnlyDrawer.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Gameplay" t="Include">
+            <e p="BadEvents" t="Include">
+              <e p="ABadEvent.cs" t="Include" />
+              <e p="BadEventExample.cs" t="Include" />
+              <e p="BadEventsManager.cs" t="Include" />
+            </e>
+            <e p="PoppingSouvenirsController.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="BreathSystem.cs" t="Include" />
             <e p="PlayerCharacteristic.cs" t="Include" />
@@ -24,7 +36,11 @@
             <e p="ResourcesManager.cs" t="Include" />
             <e p="SavableEntity.cs" t="Include" />
           </e>
+          <e p="Utility" t="Include">
+            <e p="ShowOnlyAttribute.cs" t="Include" />
+          </e>
         </e>
+        <e p="SouvenirsManager.cs" t="Include" />
       </e>
       <e p="Game Design 1.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

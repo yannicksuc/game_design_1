@@ -17,7 +17,7 @@ namespace Player
         {
             if (constitution.stress.Ratio >= PlayerCharacteristic.Limit)
                 return;
-            constitution.stress.Ratio += deltaTime * PlayerCharacteristic.Limit / constitution.stress.cooldown;
+            constitution.stress.Ratio += deltaTime / constitution.stress.cooldown;
         }
     }
 }
