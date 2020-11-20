@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3494593174010371919}
   - component: {fileID: 3494593174010371916}
+  - component: {fileID: 6746010286742886162}
   m_Layer: 0
   m_Name: DresserWithBook
   m_TagString: Untagged
@@ -84,6 +85,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6746010286742886162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494593174010371917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 0
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: 000000007fd102a97d1b707f4790c55b357b627d
+  m_ShapePath:
+  - {x: -0.49304247, y: -0.43040758, z: 0}
+  - {x: 0.50347877, y: -0.43388718, z: 0}
+  - {x: 0.50695777, y: 0.193793, z: 0}
+  - {x: 0.25748897, y: 0.19489545, z: 0}
+  - {x: 0.25748897, y: 0.2992842, z: 0}
+  - {x: 0.0035336018, y: 0.2992842, z: 0}
+  - {x: 0.0070126057, y: 0.19141579, z: 0}
+  - {x: -0.12170458, y: 0.19489545, z: 0}
+  - {x: -0.12170458, y: 0.41411173, z: 0}
+  - {x: -0.24694276, y: 0.41411173, z: 0}
+  - {x: -0.24694276, y: 0.18793619, z: 0}
+  - {x: -0.493042, y: 0.19031334, z: 0}
+  m_ShapePathHash: 1690374725
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -19468
 --- !u!1001 &565653628850448537
 PrefabInstance:
   m_ObjectHideFlags: 0

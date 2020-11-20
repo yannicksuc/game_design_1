@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5101800507958706111}
   - component: {fileID: 5101800507958706110}
+  - component: {fileID: 7519940012677023969}
   m_Layer: 0
   m_Name: Dresser
   m_TagString: Untagged
@@ -84,6 +85,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7519940012677023969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5101800507958706113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 000000007fd102a97d1b707f4790c55b357b627d
+  m_ShapePath:
+  - {x: -0.5, y: -0.45, z: 0}
+  - {x: 0.5, y: -0.45, z: 0}
+  - {x: 0.5, y: 0.2, z: 0}
+  - {x: -0.5, y: 0.2, z: 0}
+  m_ShapePathHash: 172776285
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -8354
 --- !u!1001 &5101800509269472121
 PrefabInstance:
   m_ObjectHideFlags: 0
