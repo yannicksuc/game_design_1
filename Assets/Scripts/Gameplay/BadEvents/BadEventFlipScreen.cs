@@ -4,19 +4,13 @@ using UnityEngine.Rendering.Universal;
 
 namespace Gameplay.BadEvents
 {
-    public class BadEventReverseScreen : ABadEvent
+    public class BadEventFlipScreen : ABadEvent
     {
         // Start is called before the first frame update
         void Awake()
         {
             Debug.Log("Bad Event activated : " + gameObject.GetInstanceID());
-            Volume volume = Camera.main.GetComponent<Volume>();
-
-            LensDistortion tmp;
-            if (volume.profile.TryGet<LensDistortion>(out tmp))
-            {
-                tmp.active = true;
-            }
+            Camera.main.gameObject.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
 
         // Update is called once per frame
@@ -27,13 +21,7 @@ namespace Gameplay.BadEvents
         private void OnDestroy()
         {
             Debug.Log("Bad Event deactivated: " + gameObject.GetInstanceID());
-            Volume volume = Camera.main.GetComponent<Volume>();
-
-            LensDistortion tmp;
-            if (volume.profile.TryGet<LensDistortion>(out tmp))
-            {
-                tmp.active = false;
-            }
+            Camera.main.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 }

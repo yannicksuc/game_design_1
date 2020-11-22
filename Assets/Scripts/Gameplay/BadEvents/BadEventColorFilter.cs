@@ -12,10 +12,11 @@ namespace Gameplay.BadEvents
             Debug.Log("Bad Event activated : " + gameObject.GetInstanceID());
             Volume volume = Camera.main.GetComponent<Volume>();
 
-            LensDistortion tmp;
-            if (volume.profile.TryGet<LensDistortion>(out tmp))
+            LiftGammaGain tmp;
+            if (volume.profile.TryGet<LiftGammaGain>(out tmp))
             {
                 tmp.active = true;
+                tmp.gamma.value = new Vector4(0, 1, 0, 0); // Color RGBA
             }
         }
 
@@ -28,11 +29,11 @@ namespace Gameplay.BadEvents
         {
             Debug.Log("Bad Event deactivated: " + gameObject.GetInstanceID());
             Volume volume = Camera.main.GetComponent<Volume>();
-
-            LensDistortion tmp;
-            if (volume.profile.TryGet<LensDistortion>(out tmp))
+            LiftGammaGain tmp;
+            if (volume.profile.TryGet<LiftGammaGain>(out tmp))
             {
-                tmp.active = false;
+                tmp.active = true;
+                tmp.gamma.value = new Vector4(0, 0, 0, 0);
             }
         }
     }
