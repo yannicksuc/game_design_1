@@ -307,6 +307,7 @@ MonoBehaviour:
   playerConstitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
   eventPrefabs:
   - {fileID: 1408309668679888097, guid: 763c47895d0aaa9478094c359c2d01e6, type: 3}
+  - {fileID: 1818382950888537250, guid: 75cc212631a223f4abae313965aa4191, type: 3}
 --- !u!4 &284734248
 Transform:
   m_ObjectHideFlags: 0
