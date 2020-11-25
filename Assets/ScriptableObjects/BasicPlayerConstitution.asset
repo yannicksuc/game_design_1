@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: BasicPlayerConstitution
   m_EditorClassIdentifier: 
   stress:
-    ratio: 0
-    cooldown: 7
-    steps: 10
+    ratio: 0.9884836
+    cooldown: 30
+    steps: 20
   breath:
-    ratio: 0
-    cooldown: 5
+    ratio: 0.67172986
+    cooldown: 4
     StepChange:
       m_PersistentCalls:
         m_Calls: []

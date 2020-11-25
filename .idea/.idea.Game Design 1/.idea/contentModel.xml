@@ -11,15 +11,27 @@
           <e p="ShowOnlyDrawer.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="DevPreload.cs" t="Include" />
           <e p="Gameplay" t="Include">
             <e p="BadEvents" t="Include">
               <e p="ABadEvent.cs" t="Include" />
+              <e p="BadEventCameraRotate.cs" t="Include" />
+              <e p="BadEventCameraShake.cs" t="Include" />
+              <e p="BadEventCameraShaking.cs" t="Include" />
+              <e p="BadEventColorFilter.cs" t="Include" />
               <e p="BadEventExample.cs" t="Include" />
+              <e p="BadEventFlipScreen.cs" t="Include" />
+              <e p="BadEventFOV.cs" t="Include" />
               <e p="BadEventsManager.cs" t="Include" />
             </e>
+            <e p="CameraZoom.cs" t="Include" />
             <e p="PositiveIdea.cs" t="Include" />
+            <e p="PositiveIdeaData.cs" t="Include" />
             <e p="PositiveIdeasController.cs" t="Include" />
+            <e p="PositiveIdeasManager.cs" t="Include" />
           </e>
+          <e p="IManager.cs" t="Include" />
+          <e p="LoadFirstScene.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="Door.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
@@ -46,11 +58,13 @@
             <e p="ResourcesManager.cs" t="Include" />
             <e p="SavableEntity.cs" t="Include" />
           </e>
+          <e p="ScenesManager.cs" t="Include" />
+          <e p="SceneTransitionController.cs" t="Include" />
+          <e p="SceneTransitionManager.cs" t="Include" />
           <e p="Utility" t="Include">
             <e p="ShowOnlyAttribute.cs" t="Include" />
           </e>
         </e>
-        <e p="SouvenirsManager.cs" t="Include" />
         <e p="StressOnBreathSystem.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
