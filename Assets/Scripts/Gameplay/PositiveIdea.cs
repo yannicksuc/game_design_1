@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 namespace Gameplay
 {
@@ -15,6 +14,9 @@ namespace Gameplay
         {
             _onClick = onClick;
             _active = true;
+            var r = GetComponent<RectTransform>().rect;
+            GetComponent<RectTransform>().rect.Set(r.size.x, r.size.y, data.size, data.size);
+            GetComponent<Image>().sprite = data.sprite;
         }
         void Start()
         {

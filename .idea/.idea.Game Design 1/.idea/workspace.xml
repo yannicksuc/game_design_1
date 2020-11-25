@@ -20,21 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Breathing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/BasicPlayerConstitution.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,17 +79,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/StressOnBreathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/PositiveIdeaManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" />
         <option value="$PROJECT_DIR$/Assets/PositiveIdeasManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +139,7 @@
       <workItem from="1605366394149" duration="5943000" />
       <workItem from="1605464949711" duration="9859000" />
       <workItem from="1606267325836" duration="2464000" />
-      <workItem from="1606270142559" duration="2441000" />
+      <workItem from="1606270142559" duration="5928000" />
     </task>
     <servers />
   </component>
