@@ -11,7 +11,7 @@ using Random = UnityEngine.Random;
 namespace Gameplay
 {
     [RequireComponent(typeof(PositiveIdea))]
-    public class PositiveIdeasController : MonoBehaviour
+    public class PositiveIdeasController : MonoBehaviour, IPointerClickHandler
     {
         [Header("Player stats")]
         [SerializeField] private PlayerConstitution constitution;
@@ -20,17 +20,19 @@ namespace Gameplay
 
         [Header("Positive ideas")]
         [SerializeField] private PositiveIdea positiveIdeaPreset;
-        [SerializeField] private RectTransform positiveIdeasFrame;
         [SerializeField] private int size = 50;
         
         
+        private RectTransform _positiveIdeasFrame;
         public class PositiveIdeaEvent : UnityEvent<PositiveIdea> {};
         private readonly PositiveIdeaEvent _onClick = new PositiveIdeaEvent();
         private PositiveIdea _lastIdea = null;
 
         private float toto = 0;
+
         void Awake()
         {
+            _positiveIdeasFrame = GetComponent<RectTransform>();
             _onClick.AddListener(OnPointerClick);
             constitution.breath.StepChange.AddListener(delegate{ StartCoroutine( nameof(ToggleIdea) ); });
         }
@@ -40,22 +42,15 @@ namespace Gameplay
             var start = constitution.breath.Ratio;
             yield return new WaitUntil(() => Mathf.Abs(constitution.breath.Ratio - start) < onClickBreathRatioMargin);
 
-            if (_lastIdea != null)
-            {
-                _lastIdea.Destroy();
-                _lastIdea = null;
-            }
-
+            DestroyLastIdea();
             SummonPositiveIdea();
         }
 
         private void SummonPositiveIdea()
         {
-            Vector3 spawnPosition = GetBottomLeftCorner(positiveIdeasFrame) - new Vector3(Random.Range(0 - size, positiveIdeasFrame.rect.x * 2 + size), Random.Range(0 - size, positiveIdeasFrame.rect.y * 2 + size), 0);
+            Vector3 spawnPosition = GetBottomLeftCorner(_positiveIdeasFrame) - new Vector3(Random.Range(0 - size, _positiveIdeasFrame.rect.x * 2 + size), Random.Range(0 - size, _positiveIdeasFrame.rect.y * 2 + size), 0);
 
-            print("Spawn image at position: " + spawnPosition);
-
-            _lastIdea = Instantiate(positiveIdeaPreset, spawnPosition, Quaternion.identity, positiveIdeasFrame);
+            _lastIdea = Instantiate(positiveIdeaPreset, spawnPosition, Quaternion.identity, _positiveIdeasFrame);
             var ideaData = PositiveIdeasManager.Instance.GetRandomIdea();
             ideaData.size = size;
             _lastIdea.Init(_onClick, PositiveIdeasManager.Instance.GetRandomIdea());
@@ -69,14 +64,32 @@ namespace Gameplay
                 idea.Assimilate();
                 _lastIdea = null;
                 constitution.stress.Ratio -= stressRatioInfluence;
+                print("Assim : " + constitution.stress.Ratio + " -> " + (constitution.stress.Ratio - stressRatioInfluence) );                
             }
+            else
+                DestroyLastIdea();
         }
 
-        Vector3 GetBottomLeftCorner(RectTransform rt)
+        private Vector3 GetBottomLeftCorner(RectTransform rt)
         {
             Vector3[] v = new Vector3[4];
             rt.GetWorldCorners(v);
             return v[0];
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            DestroyLastIdea();
+        }
+
+        private void DestroyLastIdea()
+        {
+            if (_lastIdea != null)
+            {
+                print("DESTROY");
+                _lastIdea.Destroy();
+                _lastIdea = null;
+            }
         }
     }
 }

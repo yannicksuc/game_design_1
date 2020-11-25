@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ee02801f6eb43d2aa181553e3496c30, type: 3}
-  m_Name: PositiveIdeaDog
+  m_Name: PositiveIdeaSun
   m_EditorClassIdentifier: 
-  sprite: {fileID: -8237133341802893600, guid: a835138875ccb204e9b0e59884ad5075, type: 3}
-  name: Dog
+  sprite: {fileID: -2914773029698552873, guid: a835138875ccb204e9b0e59884ad5075, type: 3}
+  name: Sun
+  size: 50
