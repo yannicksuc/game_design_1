@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8831585602895985561}
   - component: {fileID: 8831585602895985563}
+  - component: {fileID: 27202558}
   m_Layer: 0
   m_Name: StressSystem
   m_TagString: Untagged
@@ -44,3 +45,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
+--- !u!114 &27202558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831585602895985556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0844c2d22f9759d429ee27fc6eb03c72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
+  breathLimitCooldown: 0
