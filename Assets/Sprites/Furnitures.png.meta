@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: 6443092996910407324
     second: Furnitures_5
+  - first:
+      213: 4337053571455542110
+    second: Furnitures_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -220,7 +223,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,6 +231,27 @@ TextureImporter:
       bones: []
       spriteID: c9ed6a791f67a6950800000000000000
       internalID: 6443092996910407324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnitures_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53627a9e3f403c30800000000000000
+      internalID: 4337053571455542110
       vertices: []
       indices: 
       edges: []

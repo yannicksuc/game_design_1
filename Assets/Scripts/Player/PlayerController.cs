@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        OnBreathingStepChanged();
+        animator.SetFloat("BreathStep", -0.1f);
     }
 
     void Update()
