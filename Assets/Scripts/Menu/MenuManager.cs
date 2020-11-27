@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public static class MenuManager
 {
     private static string IntroScene = "Intro";
-    private static string GameScene = "SampleScene";
+    private static string GameScene = "Gameplay";
     private static string MenuScene = "Menu";
 
 

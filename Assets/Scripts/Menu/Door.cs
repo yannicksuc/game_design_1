@@ -11,6 +11,8 @@ public class Door : MonoBehaviour
         Exit,
         Play,
         Intro,
+        Credits,
+        ComingSoon,
     }
     [SerializeField]
     private DoorType Type;
