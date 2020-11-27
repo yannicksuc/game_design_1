@@ -36,6 +36,7 @@
             <e p="Door.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
             <e p="MenuManager.cs" t="Include" />
+            <e p="PauseUI.cs" t="Include" />
           </e>
           <e p="Particles" t="Include">
             <e p="ParticlesMoveTo.cs" t="Include" />
