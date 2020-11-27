@@ -10,6 +10,7 @@
         <e p="Editor" t="Include">
           <e p="ShowOnlyDrawer.cs" t="Include" />
         </e>
+        <e p="LevelController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DevPreload.cs" t="Include" />
           <e p="Gameplay" t="Include">
@@ -34,8 +35,10 @@
           <e p="LoadFirstScene.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="Door.cs" t="Include" />
+            <e p="GameOverOverlayUI.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
             <e p="MenuManager.cs" t="Include" />
+            <e p="OverlayUI.cs" t="Include" />
             <e p="PauseUI.cs" t="Include" />
           </e>
           <e p="Particles" t="Include">

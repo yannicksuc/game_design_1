@@ -6,6 +6,10 @@ public class ScenesManager : IManager<ScenesManager>
 {
     private List<string> _sceneHistory = new List<string>();
     [HideInInspector] public string currentSceneName = null;
+    
+    public const string IntroScene = "Intro";
+    public const string GameScene = "Gameplay";
+    public const string MenuScene = "Menu";
 
     public string LastScene => _sceneHistory.Count > 2 ? _sceneHistory[_sceneHistory.Count - 2] : string.Empty;
 

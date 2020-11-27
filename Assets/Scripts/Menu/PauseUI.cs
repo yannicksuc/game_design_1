@@ -1,41 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PauseUI : MonoBehaviour
+namespace Menu
 {
-    public GameObject PausePanel;
-
-    // Start is called before the first frame update
-    void Start()
+    public class PauseUI : OverlayUI
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Pause();
-    }
-
-    public void Pause()
-    {
-        if (!PausePanel.activeSelf)
+        // Update is called once per frame
+        void Update()
         {
-            PausePanel.SetActive(true);
-            Time.timeScale = 0;
+            if (Input.GetKeyDown(KeyCode.Escape))
+                TogglePanel();
         }
-        else
-        {
-            PausePanel.SetActive(false);
-            Time.timeScale = 1;
-        }
-    }
-
-    public void BackMenuButton()
-    {
-        Time.timeScale = 1;
-        MenuManager.GoToMenu();
     }
 }
