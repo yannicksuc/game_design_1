@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Cinemachine;
 using Player;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Gameplay.BadEvents
 {
@@ -8,6 +11,7 @@ namespace Gameplay.BadEvents
     {
         [SerializeField] private PlayerConstitution playerConstitution;
         [SerializeField] private List<ABadEvent> eventPrefabs;
+        private List<ABadEvent> usedPrefab = new List<ABadEvent>();
 
         private readonly List<ABadEvent> _instantiatedEvents = new List<ABadEvent>();
     
@@ -41,6 +45,7 @@ namespace Gameplay.BadEvents
             }
             if (selectedEvent.maxNbClone == 0) {
                 eventPrefabs.RemoveAt(idx);
+                usedPrefab.Add(selectedEvent);
             }
 
             var newEvent = Instantiate(selectedEvent);
@@ -52,8 +57,32 @@ namespace Gameplay.BadEvents
             if (_instantiatedEvents.Count <= 0)
                 return;
             var idx = Random.Range (0, _instantiatedEvents.Count);
-            GameObject.Destroy(_instantiatedEvents[idx]);
+            
+            cloneIncrement(eventPrefabs, idx);
+            var canReuseIdx = cloneIncrement(usedPrefab, idx);
+            if (canReuseIdx >= 0)
+            {
+                eventPrefabs.Add(usedPrefab[canReuseIdx]);
+                usedPrefab.RemoveAt(canReuseIdx);
+            }
+            
+            Destroy(_instantiatedEvents[idx]);
             _instantiatedEvents.RemoveAt(idx);
+        }
+
+        int cloneIncrement(List<ABadEvent> list, int idx)
+        {
+            for (var i = 0; i < list.Count; ++i)
+            {
+                if (list[idx].name.IndexOf(list[i].name, StringComparison.Ordinal) >= 0 &&
+                    list[i].maxNbClone >= 0)
+                {
+                    list[i].maxNbClone += 1;
+                    return i;
+                }
+            }
+
+            return -1;
         }
     }
 }

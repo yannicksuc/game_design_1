@@ -18,7 +18,6 @@ public class LoadFirstScene : MonoBehaviour
 
     void Start()
     {
-        print("LOAD");
         SceneManager.LoadScene(firstSceneName);
     }
 }

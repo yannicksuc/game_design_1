@@ -15,7 +15,6 @@ public class ScenesManager : IInstanciable<ScenesManager>
 
     void Awake()
     {
-        print("OUI");
         currentSceneName = SceneManager.GetActiveScene().name;
         SceneManager.sceneLoaded += OnSceneLoaded;
     }

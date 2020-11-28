@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff16554db5802044bdf88bc9efd5057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constitution: {fileID: 0}
-  _camera: {fileID: 0}
+  maxNbClone: 1
+  camera: {fileID: 0}
+  constitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
   minShake: 0
   maxShake: 1
