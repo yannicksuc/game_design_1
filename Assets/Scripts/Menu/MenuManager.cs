@@ -8,6 +8,7 @@ public static class MenuManager
     private static string IntroScene = "Intro";
     private static string GameScene = "Gameplay";
     private static string MenuScene = "Menu";
+    private static string DidacticielScene = "Didacticiel";
 
 
     public static void GoToIntro()
@@ -22,6 +23,11 @@ public static class MenuManager
     public static void GoToMenu()
     {
         SceneManager.LoadScene(MenuScene);
+    }
+
+    public static void GoToDidact()
+    {
+        SceneManager.LoadScene(DidacticielScene);
     }
 
     public static void Leave()

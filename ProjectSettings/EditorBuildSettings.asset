@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 8b7473ac31a1d3942ac1decd1077c61b
   - enabled: 1
+    path: Assets/Scenes/Didacticiel.unity
+    guid: c815228064037d44caf59b142ba42b20
+  - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
