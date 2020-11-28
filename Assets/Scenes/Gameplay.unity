@@ -10,7 +10,7 @@ OcclusionCullingSettings:
     backfaceThreshold: 100
   m_SceneGUID: 00000000000000000000000000000000
   m_OcclusionCullingData: {fileID: 0}
---- !u!104 &2
+--- !u!104 &2_instantiatedEvents
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
@@ -10756,7 +10756,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2009451612}
+      objectReference: {fileID: 0}
     - target: {fileID: 4119173475236215821, guid: eda241b62f7b8844ca92843d9746f99b,
         type: 3}
       propertyPath: m_InstanceId
