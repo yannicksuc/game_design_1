@@ -27,17 +27,17 @@ public class PlayerControllerDidact : MonoBehaviour
 
     void Update()
     {
-        if (canMove)
-        {
+
             if (Input.GetKeyDown(KeyCode.Space) && canJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
             }
-
+        if (canMove)
+        {
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
-            animator.SetFloat("Horizontal", rb.velocity.x);
-            constitution.velocity = rb.velocity;
         }
+        animator.SetFloat("Horizontal", rb.velocity.x);
+        constitution.velocity = rb.velocity;
     }
 
     private void OnBreathingStepChanged()

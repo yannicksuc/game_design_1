@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Player;
 
 public class DidacticielManager : MonoBehaviour
 {
     public List<string> scenarioText;
     public int index;
-    public TextMeshProUGUI m_textMeshPro;
-    public PlayerControllerDidact player;
-    public GameObject stressSystem;
+    [SerializeField] TextMeshProUGUI m_textMeshPro;
+    [SerializeField] PlayerControllerDidact player;
+    [SerializeField] GameObject stressSystem;
+    [SerializeField] BreathSystem m_breath;
+    [SerializeField] StressSystem m_stress;
+    [SerializeField] Door m_door;
 
     public enum TypeDialog
     {
@@ -41,8 +45,13 @@ public class DidacticielManager : MonoBehaviour
         if (index < scenarioText.Count)
         {
             player.canMove = false;
+            player.canJump = false;
             m_textMeshPro.text = scenarioText[index];
-            //StartCoroutine(TextReveal());
+            if (Step >= 4)
+            {
+                m_breath.enabled = false;
+                m_stress.enabled = false;
+            }            //StartCoroutine(TextReveal());
             index++;
         }
         else if (index == scenarioText.Count)
@@ -54,7 +63,13 @@ public class DidacticielManager : MonoBehaviour
                 player.canJump = true;
             if (Step >= 4)
                 stressSystem.SetActive(true);
-            Debug.Log(Step);
+            if (Step >= 5)
+            {
+                m_breath.enabled = true;
+                m_stress.enabled = true;
+            }
+            if (Step == 6)
+                m_door.IntroDoor();
         }
     }
 

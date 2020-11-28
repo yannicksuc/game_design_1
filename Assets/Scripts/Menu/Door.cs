@@ -13,6 +13,7 @@ public class Door : MonoBehaviour
         Intro,
         Credits,
         ComingSoon,
+        Menu
     }
     [SerializeField]
     private DoorType Type;
@@ -68,6 +69,9 @@ public class Door : MonoBehaviour
 
     public void IntroDoor()
     {
-        MenuManager.GoToScene();
+        if (Type == DoorType.Intro)
+            MenuManager.GoToScene();
+        else if (Type == DoorType.Menu)
+            MenuManager.GoToMenu();
     }
 }
