@@ -4,4 +4,6 @@ using UnityEngine;
 
 public abstract class ABadEvent : MonoBehaviour
 {
+    [Tooltip("-1 is Infinite")]
+    public int maxNbClone = 1;
 }

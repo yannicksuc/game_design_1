@@ -12,6 +12,11 @@ namespace Gameplay.BadEvents
         private readonly List<ABadEvent> _instantiatedEvents = new List<ABadEvent>();
     
         private Random _rnd = new Random();
+
+        void Awake()
+        {
+        }
+
         // Update is called once per frame
         void Start()
         {
@@ -28,7 +33,15 @@ namespace Gameplay.BadEvents
         {
             if (eventPrefabs.Count <= 0)
                 return;
-            var selectedEvent = eventPrefabs[Random.Range (0, eventPrefabs.Count)];
+            var idx = Random.Range(0, eventPrefabs.Count);
+            var selectedEvent = eventPrefabs[idx];
+            if (selectedEvent.maxNbClone > 0) {
+                selectedEvent.maxNbClone -= 1;
+            }
+            if (selectedEvent.maxNbClone == 0) {
+                eventPrefabs.RemoveAt(idx);
+            }
+
             var newEvent = Instantiate(selectedEvent);
             _instantiatedEvents.Add(newEvent);
         }

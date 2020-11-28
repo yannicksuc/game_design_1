@@ -41,7 +41,8 @@ namespace Gameplay
             yield return new WaitUntil(() => Mathf.Abs(constitution.breath.Ratio - start) < onClickBreathRatioMargin);
 
             DestroyLastIdea();
-            SummonPositiveIdea();
+            if (!IsPlayerMoving())
+                SummonPositiveIdea();
         }
 
         private void SummonPositiveIdea()
