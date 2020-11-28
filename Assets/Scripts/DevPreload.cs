@@ -20,8 +20,7 @@ public class DevPreload : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
-        print("YLO");
+        
         StartSceneName = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("_preload");
     }
@@ -33,7 +32,6 @@ public class DevPreload : MonoBehaviour
 
     private bool IsLoaded()
     {
-        print(ScenesManager.Instance);
         return ScenesManager.Instance != null;
     }
 #endif

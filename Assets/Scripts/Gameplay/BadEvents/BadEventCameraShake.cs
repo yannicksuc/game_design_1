@@ -7,13 +7,13 @@ namespace Gameplay.BadEvents
     public class BadEventCameraShake : ABadEvent {
 
         [SerializeField] private PlayerConstitution constitution = null;
-        [SerializeField] private CinemachineVirtualCamera _camera = null;
         [SerializeField] private float minShake = 0f;
         [SerializeField] private float maxShake = 1f;
         private CinemachineBasicMultiChannelPerlin noise = null;
 
-        void Awake() {
-            noise = _camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        protected override void Awake() {
+            base.Awake();
+            noise = camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         }
 
         private void Update() {

@@ -22,6 +22,27 @@
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EndGameCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EndGameCollider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShake.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShake.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShaking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShakeOneTime.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShaking.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShakeOneTime.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraRotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShaking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShakeOneTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShaking.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShakeOneTime.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventColorFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventColorFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ISavable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/LevelSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ResourcesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/BreathController.cs" />
-        <option value="$PROJECT_DIR$/Assets/BreathSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/StressIndicator.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerConstitution.cs" />
-        <option value="$PROJECT_DIR$/Assets/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ui/StressIndicator.cs" />
@@ -72,7 +84,6 @@
         <option value="$PROJECT_DIR$/Assets/Editor/ShowOnlyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PoppingSouvenirsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Souvenir.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/StressOnBreathSystem.cs" />
@@ -87,22 +98,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/EndGameCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShaking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
+        <option value="$PROJECT_DIR$/Assets/EndGameCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraRotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShakeOneTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventColorFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" />
       </list>
     </option>
   </component>
@@ -247,14 +268,14 @@
     </state>
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605367774472" />
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604556316878" />
-    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606565061331">
+    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606568958260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606565061331" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1606517775711">
+    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606568958260" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1606567056454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606517775711" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606567056454" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606275581563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

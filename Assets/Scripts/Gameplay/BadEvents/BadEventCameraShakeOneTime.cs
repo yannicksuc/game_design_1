@@ -2,11 +2,11 @@
 
 namespace Gameplay.BadEvents
 {
-    public class BadEventCameraShaking : ABadEvent
+    public class BadEventCameraShakeOneTime : ABadEvent
     {
         // Start is called before the first frame update
-        void Awake()
-        {
+        protected override void Awake() {
+            base.Awake();
             Debug.Log("Bad Event activated : " + gameObject.GetInstanceID());
             GetComponent<Cinemachine.CinemachineImpulseSource>().GenerateImpulse();
         }

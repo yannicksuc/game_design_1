@@ -25,7 +25,7 @@
               <e p="ABadEvent.cs" t="Include" />
               <e p="BadEventCameraRotate.cs" t="Include" />
               <e p="BadEventCameraShake.cs" t="Include" />
-              <e p="BadEventCameraShaking.cs" t="Include" />
+              <e p="BadEventCameraShakeOneTime.cs" t="Include" />
               <e p="BadEventColorFilter.cs" t="Include" />
               <e p="BadEventExample.cs" t="Include" />
               <e p="BadEventFlipScreen.cs" t="Include" />

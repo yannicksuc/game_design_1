@@ -11,11 +11,9 @@ namespace Gameplay.BadEvents {
         [SerializeField] private float minPitch = 0.25f;
         [SerializeField] private float maxPitch = 1f;
         [SerializeField] private bool randomDirection = true;
-
-        private void Awake() {
-            if (clips.Count > 0) {
-                audioSource.clip = clips[Random.Range(0, clips.Count)];
-            }
+        
+        protected override void Awake() {
+            base.Awake();
             if (randomDirection) {
                 audioSource.panStereo = Random.Range(-1f, 1f);
             }

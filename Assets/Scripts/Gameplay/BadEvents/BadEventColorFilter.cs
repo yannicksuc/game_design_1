@@ -7,10 +7,10 @@ namespace Gameplay.BadEvents
     public class BadEventColorFilter : ABadEvent
     {
         // Start is called before the first frame update
-        void Awake()
-        {
+        protected override void Awake() {
+            base.Awake();
             Debug.Log("Bad Event activated : " + gameObject.GetInstanceID());
-            Volume volume = Camera.main.GetComponent<Volume>();
+            Volume volume = camera.GetComponent<Volume>();
 
             LiftGammaGain tmp;
             if (volume.profile.TryGet<LiftGammaGain>(out tmp))
@@ -28,7 +28,7 @@ namespace Gameplay.BadEvents
         private void OnDestroy()
         {
             Debug.Log("Bad Event deactivated: " + gameObject.GetInstanceID());
-            Volume volume = Camera.main.GetComponent<Volume>();
+            Volume volume = camera.GetComponent<Volume>();
             LiftGammaGain tmp;
             if (volume.profile.TryGet<LiftGammaGain>(out tmp))
             {
