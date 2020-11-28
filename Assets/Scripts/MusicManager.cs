@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MusicManager : IManager<MusicManager> {
+public class MusicManager : IInstanciable<MusicManager> {
 
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private float transitionTime = 1f;

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Gameplay
 {
-    public class PositiveIdeasInstanciable : IInstanciable<PositiveIdeasInstanciable>
+    public class PositiveIdeasManager : IInstanciable<PositiveIdeasManager>
     {
         [SerializeField] private List<PositiveIdeaData> ideas;
 

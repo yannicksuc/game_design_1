@@ -20,7 +20,7 @@ namespace Menu
         {
             Time.timeScale = 1;
             if (LevelController.Instance.nextLevelName != null)
-                ScenesInstanciable.Instance.LoadScene(LevelController.Instance.nextLevelName);
+                ScenesManager.Instance.LoadScene(LevelController.Instance.nextLevelName);
             else
                 BackToMenu();
         }
