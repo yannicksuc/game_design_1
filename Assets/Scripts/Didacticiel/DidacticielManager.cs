@@ -8,17 +8,22 @@ public class DidacticielManager : MonoBehaviour
     public List<string> scenarioText;
     public int index;
     public TextMeshProUGUI m_textMeshPro;
+    public PlayerControllerDidact player;
+    public GameObject stressSystem;
+
     public enum TypeDialog
     {
         Simple,
         EventWaiting
     }
     public TypeDialog m_type;
+    public int Step;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        Step = 0;
         ScenarioNext();
     }
 
@@ -35,12 +40,22 @@ public class DidacticielManager : MonoBehaviour
     {
         if (index < scenarioText.Count)
         {
+            player.canMove = false;
             m_textMeshPro.text = scenarioText[index];
             //StartCoroutine(TextReveal());
             index++;
         }
         else if (index == scenarioText.Count)
+        {
             this.gameObject.SetActive(false);
+            Step++;
+            player.canMove = true;
+            if (Step >= 2)
+                player.canJump = true;
+            if (Step >= 4)
+                stressSystem.SetActive(true);
+            Debug.Log(Step);
+        }
     }
 
     public void NewScenario(List<string> scenario)
