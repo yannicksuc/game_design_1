@@ -44,7 +44,7 @@ namespace Gameplay
         public void OnPointerClick(PointerEventData eventData)
         {
             if (_active)
-                _onClick.Invoke(this);
+                _onClick.Invoke(this);    
         }
     }
 }

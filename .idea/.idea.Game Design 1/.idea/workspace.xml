@@ -20,29 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EndGameCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EndGameCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShake.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShake.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShaking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShakeOneTime.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShaking.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadEvents/BadEventCameraShakeOneTime.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraRotate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShaking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShakeOneTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShaking.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventCameraShakeOneTime.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventColorFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventColorFilter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
@@ -119,11 +98,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFlipScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventFOV.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
       </list>
     </option>
   </component>
