@@ -50,9 +50,9 @@ namespace Gameplay
             Vector3 spawnPosition = GetBottomLeftCorner(_positiveIdeasFrame) - new Vector3(Random.Range(0 - size, _positiveIdeasFrame.rect.x * 2 + size), Random.Range(0 - size, _positiveIdeasFrame.rect.y * 2 + size), 0);
 
             _lastIdea = Instantiate(positiveIdeaPreset, spawnPosition, Quaternion.identity, _positiveIdeasFrame);
-            var ideaData = PositiveIdeasManager.Instance.GetRandomIdea();
+            var ideaData = PositiveIdeasInstanciable.Instance.GetRandomIdea();
             ideaData.size = size;
-            _lastIdea.Init(_onClick, PositiveIdeasManager.Instance.GetRandomIdea());
+            _lastIdea.Init(_onClick, PositiveIdeasInstanciable.Instance.GetRandomIdea());
         }
 
         private void Update()

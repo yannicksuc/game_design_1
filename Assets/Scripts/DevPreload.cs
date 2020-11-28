@@ -33,8 +33,8 @@ public class DevPreload : MonoBehaviour
 
     private bool IsLoaded()
     {
-        print(ScenesManager.Instance);
-        return ScenesManager.Instance != null;
+        print(ScenesInstanciable.Instance);
+        return ScenesInstanciable.Instance != null;
     }
 #endif
 }

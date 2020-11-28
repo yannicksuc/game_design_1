@@ -17,7 +17,7 @@ public class SceneTransitionController : MonoBehaviour
     }
 
     public void Transitionned() {
-        ScenesManager.Instance.ValidateSceneLoading();
+        ScenesInstanciable.Instance.ValidateSceneLoading();
         closeTransitionFinished = true;
     }
 }

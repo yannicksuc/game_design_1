@@ -25,7 +25,7 @@ namespace Player
             Reset();
         }
 
-        private void Reset()
+        public void Reset()
         {
             stress.Ratio = 0;
             breath.Ratio = 0;

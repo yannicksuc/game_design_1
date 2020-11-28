@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class IManager<T> : MonoBehaviour where T : IManager<T>
+public class IInstanciable<T> : MonoBehaviour where T : IInstanciable<T>
 {
     private static volatile T _instance = null;
     private static object _lock = new object();
