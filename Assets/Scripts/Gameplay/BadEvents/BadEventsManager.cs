@@ -74,14 +74,13 @@ namespace Gameplay.BadEvents
         {
             for (var i = 0; i < list.Count; ++i)
             {
-                if (list[idx].name.IndexOf(list[i].name, StringComparison.Ordinal) >= 0 &&
+                if (_instantiatedEvents[idx].name.IndexOf(list[i].name, StringComparison.Ordinal) >= 0 &&
                     list[i].maxNbClone >= 0)
                 {
                     list[i].maxNbClone += 1;
                     return i;
                 }
             }
-
             return -1;
         }
     }
