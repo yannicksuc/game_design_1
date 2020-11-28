@@ -14,6 +14,9 @@ namespace Gameplay.BadEvents {
         
         protected override void Awake() {
             base.Awake();
+            if (clips.Count > 0) {
+                audioSource.clip = clips[Random.Range(0, clips.Count)];
+            }
             if (randomDirection) {
                 audioSource.panStereo = Random.Range(-1f, 1f);
             }
