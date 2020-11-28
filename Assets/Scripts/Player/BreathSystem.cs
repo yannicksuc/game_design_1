@@ -7,6 +7,8 @@ using UnityEngine.Serialization;
 public class BreathSystem : MonoBehaviour
 {
     [SerializeField] private PlayerConstitution constitution;
+    [SerializeField] private AudioSource inhaleAudio;
+    [SerializeField] private AudioSource exhaleAudio;
 
     void Awake()
     {
@@ -14,13 +16,19 @@ public class BreathSystem : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        constitution.breath.Ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float) constitution.breath.Step;
+    void Update() {
+        constitution.breath.Ratio += Time.deltaTime * PlayerCharacteristic.Limit / constitution.breath.cooldown * (float)constitution.breath.Step;
 
-        if (constitution.breath.Step == BreathStep.Inhale && constitution.breath.Ratio >= PlayerCharacteristic.Limit)
+        if (constitution.breath.Step == BreathStep.Inhale && constitution.breath.Ratio >= PlayerCharacteristic.Limit) {
             constitution.breath.Step = BreathStep.Exhale;
-        else if (constitution.breath.Step == BreathStep.Exhale && constitution.breath.Ratio <= 0)
+            if (exhaleAudio) {
+                exhaleAudio.Play();
+            }
+        } else if (constitution.breath.Step == BreathStep.Exhale && constitution.breath.Ratio <= 0) {
             constitution.breath.Step = BreathStep.Inhale;
+            if (inhaleAudio) {
+                inhaleAudio.Play();
+            }
+        }
     }
 }

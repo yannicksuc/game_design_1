@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1247986343131804625}
   - component: {fileID: 751273981014870944}
   m_Layer: 0
-  m_Name: BadEventSoundSwitch
+  m_Name: BadEventSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxNbClone: -1
   constitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
+  clips:
+  - {fileID: 8300000, guid: 19db7acc44e3702408bba27f6a3b17b4, type: 3}
+  - {fileID: 8300000, guid: 3169d48efd05f954c89f2360647e833b, type: 3}
+  - {fileID: 8300000, guid: fad4698743074ca4aadb80b2d44a7610, type: 3}
+  - {fileID: 8300000, guid: 732861ffa3a5c8c4cb1f5f56c7750078, type: 3}
+  - {fileID: 8300000, guid: 2ee8fe004fb50f84cbdb7011ea9c9df1, type: 3}
+  - {fileID: 8300000, guid: 31d45ce6dd785974fa86b663ba90cc81, type: 3}
+  - {fileID: 8300000, guid: a361fa0bf45ae444384508959913ddb7, type: 3}
   audioSource: {fileID: 751273981014870944}
   minPitch: 0.25
   maxPitch: 1
@@ -60,8 +68,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2ee8fe004fb50f84cbdb7011ea9c9df1, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
