@@ -26,14 +26,14 @@ namespace Menu
         {
             Time.timeScale = 1;
             print("LAOD NEW");
-            ScenesInstanciable.Instance.LoadScene(ScenesInstanciable.MenuScene);
+            ScenesManager.Instance.LoadScene(ScenesManager.MenuScene);
         }
     
         public void Restart()
         {
             Time.timeScale = 1;
             print("LAOD NEW 2");
-            ScenesInstanciable.Instance.LoadScene(ScenesInstanciable.Instance.currentSceneName);
+            ScenesManager.Instance.LoadScene(ScenesManager.Instance.currentSceneName);
         }
     }
 }

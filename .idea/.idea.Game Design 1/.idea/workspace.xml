@@ -22,26 +22,18 @@
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/PauseMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/PauseMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasInstanciable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasInstanciable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasInstanciable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasInstanciable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionInstanciable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionInstanciable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesInstanciable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesInstanciable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionInstanciable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneTransitionInstanciable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesInstanciable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesInstanciable.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2BCE5D3-3E70-4A76-A5C9-576F4D43769B/f4/6aa0f47e/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
@@ -72,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/SaveableEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/ISavable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SavingLoading/LevelSystem.cs" />
@@ -112,17 +104,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EndGameCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IInstanciable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" />
       </list>
     </option>
   </component>
@@ -267,10 +260,10 @@
     </state>
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605367774472" />
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604556316878" />
-    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606560949920">
+    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606565061331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606560949920" />
+    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606565061331" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606517775711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

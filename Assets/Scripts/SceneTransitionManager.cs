@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-public class SceneTransitionInstanciable : IInstanciable<SceneTransitionInstanciable> {
+public class SceneTransitionManager : IInstanciable<SceneTransitionManager> {
     private List<SceneTransitionController> _controllers;
 
     void Start()

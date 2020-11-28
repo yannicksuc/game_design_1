@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScenesManager : IManager<ScenesManager>
+public class ScenesManager : IInstanciable<ScenesManager>
 {
     private List<string> _sceneHistory = new List<string>();
     [HideInInspector] public string currentSceneName = null;

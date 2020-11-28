@@ -18,6 +18,7 @@
           <e p="Didacticiel" t="Include">
             <e p="DidactEvent.cs" t="Include" />
             <e p="DidacticielManager.cs" t="Include" />
+            <e p="PlayerControllerDidact.cs" t="Include" />
           </e>
           <e p="Gameplay" t="Include">
             <e p="BadEvents" t="Include">
@@ -30,6 +31,7 @@
               <e p="BadEventFlipScreen.cs" t="Include" />
               <e p="BadEventFOV.cs" t="Include" />
               <e p="BadEventsManager.cs" t="Include" />
+              <e p="BadEventSound.cs" t="Include" />
             </e>
             <e p="CameraZoom.cs" t="Include" />
             <e p="PositiveIdea.cs" t="Include" />
@@ -47,6 +49,8 @@
             <e p="OverlayUI.cs" t="Include" />
             <e p="PauseUI.cs" t="Include" />
           </e>
+          <e p="MusicChanger.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
           <e p="Particles" t="Include">
             <e p="ParticlesMoveTo.cs" t="Include" />
           </e>
@@ -68,9 +72,9 @@
             <e p="ResourcesManager.cs" t="Include" />
             <e p="SavableEntity.cs" t="Include" />
           </e>
-          <e p="ScenesInstanciable.cs" t="Include" />
+          <e p="ScenesManager.cs" t="Include" />
           <e p="SceneTransitionController.cs" t="Include" />
-          <e p="SceneTransitionInstanciable.cs" t="Include" />
+          <e p="SceneTransitionManager.cs" t="Include" />
           <e p="Utility" t="Include">
             <e p="ShowOnlyAttribute.cs" t="Include" />
           </e>
