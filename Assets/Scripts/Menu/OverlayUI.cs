@@ -25,12 +25,14 @@ namespace Menu
         public void BackMenuButton()
         {
             Time.timeScale = 1;
+            print("LAOD NEW");
             ScenesManager.Instance.LoadScene(ScenesManager.MenuScene);
         }
     
         public void Restart()
         {
             Time.timeScale = 1;
+            print("LAOD NEW 2");
             ScenesManager.Instance.LoadScene(ScenesManager.Instance.currentSceneName);
         }
     }

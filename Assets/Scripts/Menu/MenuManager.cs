@@ -5,23 +5,20 @@ using UnityEngine.SceneManagement;
 
 public static class MenuManager
 {
-    private static string IntroScene = "Intro";
-    private static string GameScene = "Gameplay";
-    private static string MenuScene = "Menu";
 
 
     public static void GoToIntro()
     {
-        SceneManager.LoadScene(IntroScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.IntroScene);
     }
 
     public static void GoToScene()
     {
-        SceneManager.LoadScene(GameScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.GameScene);
     }
     public static void GoToMenu()
     {
-        SceneManager.LoadScene(MenuScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.MenuScene);
     }
 
     public static void Leave()

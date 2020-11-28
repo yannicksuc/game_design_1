@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_preload.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_preload.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +45,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ShowOnlyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB4ED992-9FE0-4849-BBE2-B059CBA4D31F/42/6922f19b/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SavingLoading/SavableEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2BCE5D3-3E70-4A76-A5C9-576F4D43769B/f4/6aa0f47e/Time.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StressOnBreathSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ui/BreathIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/5c/7932bdc9/Event.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2BCE5D3-3E70-4A76-A5C9-576F4D43769B/f4/6aa0f47e/Time.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,20 +97,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontDestroyOnLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadFirstScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +164,7 @@
       <workItem from="1605464949711" duration="9859000" />
       <workItem from="1606267325836" duration="2464000" />
       <workItem from="1606270142559" duration="7779000" />
-      <workItem from="1606516532441" duration="8267000" />
+      <workItem from="1606516532441" duration="11760000" />
     </task>
     <servers />
   </component>
@@ -241,10 +258,10 @@
     </state>
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605367774472" />
     <state x="601" y="27" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604556316878" />
-    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606522364371">
+    <state x="439" y="0" width="658" height="824" key="find.popup" timestamp="1606527290342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606522364371" />
+    <state x="439" y="0" width="658" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606527290342" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606517775711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

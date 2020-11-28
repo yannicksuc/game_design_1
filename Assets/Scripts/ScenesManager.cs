@@ -8,13 +8,14 @@ public class ScenesManager : IManager<ScenesManager>
     [HideInInspector] public string currentSceneName = null;
     
     public const string IntroScene = "Intro";
-    public const string GameScene = "Gameplay";
+    public const string GameScene = "Gameplay 2";
     public const string MenuScene = "Menu";
 
     public string LastScene => _sceneHistory.Count > 2 ? _sceneHistory[_sceneHistory.Count - 2] : string.Empty;
 
     void Awake()
     {
+        print("OUI");
         currentSceneName = SceneManager.GetActiveScene().name;
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -26,8 +27,7 @@ public class ScenesManager : IManager<ScenesManager>
 
     private bool TrySetCurrent(string sceneName)
     {
-        if (currentSceneName == sceneName) return false;
-        
+//        if (currentSceneName == sceneName) return false;
         _sceneHistory.Add(sceneName);
         currentSceneName = sceneName;
         return true;
@@ -35,7 +35,9 @@ public class ScenesManager : IManager<ScenesManager>
 
     public void LoadScene(string newSceneName, bool addToHistory = true)
     {
+        print("LOAD NEW SCENEEEEE");
         if (!TrySetCurrent(newSceneName)) return;
+        print("LOAD NEW SCENE 2");
 
         // We launch the next scene if no transition animation is found. If there is the transition will call the method after finishing
         if (!SceneTransitionManager.Instance || !SceneTransitionManager.Instance.HasTransitions())
@@ -57,6 +59,7 @@ public class ScenesManager : IManager<ScenesManager>
     {
         if (string.IsNullOrEmpty(currentSceneName))
             return;
+        print("LAOD NEW SCENE");
         SceneManager.LoadScene(currentSceneName);
     }
 }

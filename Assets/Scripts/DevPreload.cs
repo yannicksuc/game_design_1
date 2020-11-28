@@ -11,27 +11,29 @@ public class DevPreload : MonoBehaviour
     void Awake()
     {
         if (IsLoaded()) {
-            Destroy(this);
+            Destroy(gameObject);
             return;
         }
 
         if (StartSceneName != null) {
             Debug.Log("Warning: multiple " + this + " in scene!");
-            Destroy(this);
+            Destroy(gameObject);
             return;
         }
 
+        print("YLO");
         StartSceneName = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(StartSceneName);
+        SceneManager.LoadScene("_preload");
     }
 
     private void Update() {
         if (IsLoaded())
-            Destroy(this);
+            Destroy(gameObject);
     }
 
     private bool IsLoaded()
     {
+        print(ScenesManager.Instance);
         return ScenesManager.Instance != null;
     }
 #endif
