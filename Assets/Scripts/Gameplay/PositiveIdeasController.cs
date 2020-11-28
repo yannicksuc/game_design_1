@@ -28,8 +28,6 @@ namespace Gameplay
         private readonly PositiveIdeaEvent _onClick = new PositiveIdeaEvent();
         private PositiveIdea _lastIdea = null;
 
-        private float toto = 0;
-
         void Awake()
         {
             _positiveIdeasFrame = GetComponent<RectTransform>();
@@ -56,18 +54,29 @@ namespace Gameplay
             _lastIdea.Init(_onClick, PositiveIdeasManager.Instance.GetRandomIdea());
         }
 
+        private void Update()
+        {
+            if (IsPlayerMoving()) {
+                DestroyLastIdea();
+            }
+        }
+
         private void OnPointerClick(PositiveIdea idea)
         {
-            if (constitution.stress.Ratio <= onClickBreathRatioMargin ||
-                (PlayerCharacteristic.Limit - constitution.stress.Ratio) <= onClickBreathRatioMargin)
+            if (!IsPlayerMoving() && (constitution.stress.Ratio <= onClickBreathRatioMargin ||
+                                     PlayerCharacteristic.Limit - constitution.stress.Ratio <= onClickBreathRatioMargin))
             {
                 idea.Assimilate();
                 _lastIdea = null;
                 constitution.stress.Ratio -= stressRatioInfluence;
-                print("Assim : " + constitution.stress.Ratio + " -> " + (constitution.stress.Ratio - stressRatioInfluence) );                
             }
             else
                 DestroyLastIdea();
+        }
+
+        private bool IsPlayerMoving()
+        {
+            return Input.GetAxis("Horizontal") != 0 || constitution.velocity.magnitude != 0;
         }
 
         private Vector3 GetBottomLeftCorner(RectTransform rt)
@@ -86,7 +95,6 @@ namespace Gameplay
         {
             if (_lastIdea != null)
             {
-                print("DESTROY");
                 _lastIdea.Destroy();
                 _lastIdea = null;
             }

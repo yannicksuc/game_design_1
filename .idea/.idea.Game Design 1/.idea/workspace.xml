@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Souvenir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCharacteristic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/BreathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/StressOnBreathSystem.cs" />
@@ -89,12 +89,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DevPreload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/GameOverOverlayUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/OverlayUI.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +147,7 @@
       <workItem from="1605464949711" duration="9859000" />
       <workItem from="1606267325836" duration="2464000" />
       <workItem from="1606270142559" duration="7779000" />
-      <workItem from="1606516532441" duration="1748000" />
+      <workItem from="1606516532441" duration="4781000" />
     </task>
     <servers />
   </component>

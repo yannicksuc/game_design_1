@@ -8,6 +8,7 @@ namespace Player
     {
         public PlayerStressCharacteristic stress;
         public PlayerBreathCharacteristic breath;
+        [ShowOnly] public Vector2 velocity = Vector2.zero;
 
         public void OnDisable()
         {

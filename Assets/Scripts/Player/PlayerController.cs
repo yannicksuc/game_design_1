@@ -18,18 +18,19 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator.SetFloat("BreathStep", -0.1f);
+
+        constitution.breath.StepChange.AddListener(OnBreathingStepChanged);
     }
 
     void Update()
     {
-        constitution.breath.StepChange.AddListener(OnBreathingStepChanged);
-
         if (Input.GetKeyDown(KeyCode.Space)) {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }
 
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
         animator.SetFloat("Horizontal", rb.velocity.x);
+        constitution.velocity = rb.velocity;
     }
 
     private void OnBreathingStepChanged()
