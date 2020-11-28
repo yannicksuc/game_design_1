@@ -15,6 +15,7 @@ namespace Gameplay.BadEvents
 
         void Awake()
         {
+            playerConstitution.Reset();
         }
 
         // Update is called once per frame

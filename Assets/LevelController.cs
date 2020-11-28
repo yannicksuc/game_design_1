@@ -4,11 +4,14 @@ using Player;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LevelController : MonoBehaviour
+public class LevelController : IInstanciable<LevelController>
 {
     [SerializeField] private PlayerConstitution constitution;
-    [SerializeField] private UnityEvent onGameOver;
+    public class GameOverEvent : UnityEvent<bool> {}
+    public GameOverEvent onGameOver = new GameOverEvent();
     private bool _isGameOn = true;
+    public string nextLevelName;
+
     void Start()
     {
         
@@ -24,9 +27,9 @@ public class LevelController : MonoBehaviour
             StopGame();
     }
 
-    private void StopGame()
+    public void StopGame(bool won = false)
     {
-        onGameOver?.Invoke();
+        onGameOver?.Invoke(won);
         _isGameOn = false;
     }
 }

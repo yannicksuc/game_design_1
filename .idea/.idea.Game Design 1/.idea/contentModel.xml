@@ -11,9 +11,14 @@
         <e p="Editor" t="Include">
           <e p="ShowOnlyDrawer.cs" t="Include" />
         </e>
+        <e p="EndGameCollider.cs" t="Include" />
         <e p="LevelController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DevPreload.cs" t="Include" />
+          <e p="Didacticiel" t="Include">
+            <e p="DidactEvent.cs" t="Include" />
+            <e p="DidacticielManager.cs" t="Include" />
+          </e>
           <e p="Gameplay" t="Include">
             <e p="BadEvents" t="Include">
               <e p="ABadEvent.cs" t="Include" />
@@ -30,9 +35,9 @@
             <e p="PositiveIdea.cs" t="Include" />
             <e p="PositiveIdeaData.cs" t="Include" />
             <e p="PositiveIdeasController.cs" t="Include" />
-            <e p="PositiveIdeasManager.cs" t="Include" />
+            <e p="PositiveIdeasInstanciable.cs" t="Include" />
           </e>
-          <e p="IManager.cs" t="Include" />
+          <e p="IInstanciable.cs" t="Include" />
           <e p="LoadFirstScene.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="Door.cs" t="Include" />
@@ -63,9 +68,9 @@
             <e p="ResourcesManager.cs" t="Include" />
             <e p="SavableEntity.cs" t="Include" />
           </e>
-          <e p="ScenesManager.cs" t="Include" />
+          <e p="ScenesInstanciable.cs" t="Include" />
           <e p="SceneTransitionController.cs" t="Include" />
-          <e p="SceneTransitionManager.cs" t="Include" />
+          <e p="SceneTransitionInstanciable.cs" t="Include" />
           <e p="Utility" t="Include">
             <e p="ShowOnlyAttribute.cs" t="Include" />
           </e>

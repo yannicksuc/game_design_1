@@ -22,18 +22,18 @@ namespace Menu
             }
         }
 
-        public void BackMenuButton()
+        public void BackToMenu()
         {
             Time.timeScale = 1;
             print("LAOD NEW");
-            ScenesManager.Instance.LoadScene(ScenesManager.MenuScene);
+            ScenesInstanciable.Instance.LoadScene(ScenesInstanciable.MenuScene);
         }
     
         public void Restart()
         {
             Time.timeScale = 1;
             print("LAOD NEW 2");
-            ScenesManager.Instance.LoadScene(ScenesManager.Instance.currentSceneName);
+            ScenesInstanciable.Instance.LoadScene(ScenesInstanciable.Instance.currentSceneName);
         }
     }
 }
