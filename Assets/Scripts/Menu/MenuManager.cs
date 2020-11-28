@@ -18,7 +18,7 @@ public static class MenuManager
 
     public static void GoToScene()
     {
-        ScenesManager.Instance.LoadScene(ScenesManager.GameScene);
+        ScenesManager.Instance.LoadScene("Gameplay");
     }
     public static void GoToMenu()
     {
