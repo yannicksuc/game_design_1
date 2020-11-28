@@ -13,7 +13,7 @@ public class PlayerControllerDidact : MonoBehaviour
     public float jumpSpeed = 5f;
     public bool canMove = false;
     public bool canJump = false;
-    private int jumpCount;
+    private bool onGround;
 
     void Start()
     {
@@ -27,11 +27,11 @@ public class PlayerControllerDidact : MonoBehaviour
 
     void Update()
     {
-
-            if (Input.GetKeyDown(KeyCode.Space) && canJump)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            }
+        if (Input.GetKeyDown(KeyCode.Space) && canJump && onGround)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            onGround = false;
+        }
         if (canMove)
         {
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
@@ -47,6 +47,14 @@ public class PlayerControllerDidact : MonoBehaviour
         }
         else if (constitution.breath.Step == BreathStep.Exhale) {
             animator.SetFloat("BreathStep", -0.1f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            onGround = true;
         }
     }
 }

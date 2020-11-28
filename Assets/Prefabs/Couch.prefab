@@ -114,7 +114,7 @@ MonoBehaviour:
   - {x: -0.988232, y: -0.057415187, z: 0}
   m_ShapePathHash: -59984847
   m_Mesh: {fileID: 0}
-  m_InstanceId: 18504
+  m_InstanceId: 34808
 --- !u!1001 &6952398089683149156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -126,6 +126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OneWayPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010124515963710694, guid: 6f00a5f3c2ff7574892b98a61ad3ba9f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4010124515963710695, guid: 6f00a5f3c2ff7574892b98a61ad3ba9f,
         type: 3}

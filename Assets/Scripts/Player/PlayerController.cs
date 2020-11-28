@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public float movementSpeed = 1f;
     public float jumpSpeed = 5f;
+    private bool onGround;
 
     void Start()
     {
@@ -24,8 +25,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space) && onGround)
+        {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            onGround = false;
         }
 
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
@@ -40,6 +43,14 @@ public class PlayerController : MonoBehaviour
         }
         else if (constitution.breath.Step == BreathStep.Exhale) {
             animator.SetFloat("BreathStep", -0.1f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            onGround = true;
         }
     }
 }
