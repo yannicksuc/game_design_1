@@ -13,16 +13,16 @@ public static class MenuManager
 
     public static void GoToIntro()
     {
-        SceneManager.LoadScene(IntroScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.IntroScene);
     }
 
     public static void GoToScene()
     {
-        SceneManager.LoadScene(GameScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.GameScene);
     }
     public static void GoToMenu()
     {
-        SceneManager.LoadScene(MenuScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.MenuScene);
     }
 
     public static void GoToDidact()
