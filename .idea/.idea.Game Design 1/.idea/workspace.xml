@@ -22,11 +22,8 @@
     <list default="true" id="77c3afd7-6923-4642-977e-dd2326bebd2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Design 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VFX Camera.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VFX Camera.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VFX Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VFX Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ABadEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utility/ShowOnlyAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/ShowOnlyDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PoppingSouvenirsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Souvenir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventExample.cs" />
@@ -99,6 +95,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerConstitution.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/ABadEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/BadEvents/BadEventsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StressSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/PositiveIdeasController.cs" />
       </list>
     </option>
@@ -150,7 +147,7 @@
       <workItem from="1605464949711" duration="9859000" />
       <workItem from="1606267325836" duration="2464000" />
       <workItem from="1606270142559" duration="7779000" />
-      <workItem from="1606516532441" duration="7539000" />
+      <workItem from="1606516532441" duration="8267000" />
     </task>
     <servers />
   </component>

@@ -64,8 +64,8 @@ namespace Gameplay
 
         private void OnPointerClick(PositiveIdea idea)
         {
-            if (!IsPlayerMoving() && (constitution.stress.Ratio <= onClickBreathRatioMargin ||
-                                     PlayerCharacteristic.Limit - constitution.stress.Ratio <= onClickBreathRatioMargin))
+            if (constitution.breath.Ratio <= onClickBreathRatioMargin ||
+                PlayerCharacteristic.Limit - constitution.breath.Ratio <= onClickBreathRatioMargin)
             {
                 idea.Assimilate();
                 _lastIdea = null;
