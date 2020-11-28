@@ -91,9 +91,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constitution: {fileID: 11400000, guid: a5b70930ed3d0924a8880d8b73e33f7d, type: 2}
-  stressRatioInfluence: 0.1
+  stressRatioInfluence: 0.2
   onClickBreathRatioMargin: 0.2
-  positiveIdeaPreset: {fileID: 0}
+  positiveIdeaPreset: {fileID: 3118123168446674582, guid: 3180f3c7fb641094d83207e2f9bb2f6d,
+    type: 3}
   size: 50
 --- !u!114 &226898249841093840
 MonoBehaviour:

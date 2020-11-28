@@ -37,7 +37,7 @@
             <e p="PositiveIdea.cs" t="Include" />
             <e p="PositiveIdeaData.cs" t="Include" />
             <e p="PositiveIdeasController.cs" t="Include" />
-            <e p="PositiveIdeasInstanciable.cs" t="Include" />
+            <e p="PositiveIdeasManager.cs" t="Include" />
           </e>
           <e p="IInstanciable.cs" t="Include" />
           <e p="LoadFirstScene.cs" t="Include" />
